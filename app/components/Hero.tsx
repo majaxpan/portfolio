@@ -7,9 +7,10 @@ export default function Hero() {
     <section
       id="hero"
       className="min-h-screen flex flex-col justify-center items-center text-center px-6 text-white relative"
- style={{
-    background: "linear-gradient(135deg, rgba(16,185,129,0.9) 20%, rgba(139,92,246,0.9) 100%)"
-  }}
+      style={{
+        background:
+          "linear-gradient(135deg, rgba(16,185,129,0.9) 20%, rgba(139,92,246,0.9) 100%)",
+      }}
     >
       {/* Heading animation */}
       <motion.h1
@@ -49,8 +50,8 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.6 }}
       >
-        Experience working on real-world production systems,
-        including national-scale financial infrastructure.
+        Experience working on real-world production systems, including
+        national-scale financial infrastructure.
       </motion.p>
 
       {/* Scroll down arrow with fade + bounce */}
