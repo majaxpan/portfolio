@@ -15,9 +15,10 @@ export default function Experience() {
           </p>
 
           <p className="text-gray-600 mb-4">
-            Worked on the implementation and maintenance of a national-scale SEPA
-            payment system integrated into an existing foreign currency payments
-            platform, used by the national bank and multiple commercial banks.
+            Worked on the implementation and maintenance of a national-scale
+            SEPA payment system integrated into an existing foreign currency
+            payments platform, used by the national bank and multiple commercial
+            banks.
           </p>
 
           <ul className="list-disc list-inside text-gray-600 space-y-2">
@@ -34,15 +35,44 @@ export default function Experience() {
               resolve inconsistencies
             </li>
             <li>
-              Configured and parameterized SEPA message formats for different banks
+              Configured and parameterized SEPA message formats for different
+              banks
             </li>
             <li>
-              Prepared technical documentation and held presentations for clients
-              and internal teams
+              Prepared technical documentation and held presentations for
+              clients and internal teams
             </li>
             <li>
-              Collaborated closely with architects, developers, and external teams
-              in a production environment
+              Collaborated closely with architects, developers, and external
+              teams in a production environment
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-semibold">
+            Software Engineering Intern
+          </h3>
+
+          <p className="text-sm text-gray-500 mb-3">
+            University Internship · 3 months
+          </p>
+
+          <p className="text-gray-600 mb-4">
+            Participated in the development of a student attendance management
+            system as part of a small engineering team, working on both
+            implementation and testing.
+          </p>
+
+          <ul className="list-disc list-inside text-gray-600 space-y-2">
+            <li>
+              Contributed to backend and frontend features under mentorship
+            </li>
+            <li>
+              Gained experience working in a team-based development environment
+            </li>
+            <li>
+              Participated in testing, debugging, and iterative improvements
             </li>
           </ul>
         </div>
