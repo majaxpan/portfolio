@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { SiReact, SiPostgresql, SiGodotengine } from "react-icons/si";
+import { SiReact, SiPostgresql, SiGodotengine, SiPython, SiDjango, SiSharp} from "react-icons/si";
 import { FaBook } from "react-icons/fa"; // fallback for Google Books API
 import { JSX } from "react";
 
@@ -13,6 +13,12 @@ export default function Projects() {
     "Google Books API": <FaBook className="w-4 h-4" />,
     "Godot Engine": <SiGodotengine className="w-4 h-4" />,
     "GDScript / C#": <SiGodotengine className="w-4 h-4" />,
+    CSharp: <SiSharp className="w-4 h-4" />,
+    Python: <SiPython className="w-4 h-4" />,
+    Django: <SiDjango className="w-4 h-4" />,
+    HTML: <span>🌐</span>,
+    CSS: <span>🎨</span>,
+    JavaScript: <span>🟨</span>,
   };
 
   const projects = [
@@ -35,6 +41,26 @@ export default function Projects() {
       github: "#",
       demo: "#",
       color: "emerald-500",
+    },
+    {
+      title: "Зборче / Zborche",
+      type: "Macedonian Wordle Game",
+      description:
+        "A Macedonian version of Wordle, with custom rules, difficulty modes, and color-coded letter feedback. Uses HashSet for fast word lookup and tracks game attempts.",
+      tech: ["CSharp"],
+      github: "https://github.com/majaxpan/Zborche",
+      demo: "#",
+      color: "violet-500",
+    },
+    {
+      title: "Bag Store",
+      type: "E-commerce website",
+      description:
+        "A website for selling bags built with Django, HTML, CSS, JavaScript, and Python. Includes product listing, shopping cart, and checkout functionality.",
+      tech: ["Python", "Django", "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/majaxpan/bag-store",
+      demo: "#",
+      color: "violet-500",
     },
   ];
 
