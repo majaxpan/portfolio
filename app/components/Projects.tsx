@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { SiReact, SiPostgresql, SiGodotengine } from "react-icons/si";
 import { FaBook } from "react-icons/fa"; // fallback for Google Books API
+import { JSX } from "react";
 
 export default function Projects() {
   const techIcons: Record<string, JSX.Element> = {

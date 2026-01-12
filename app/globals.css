@@ -29,3 +29,19 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 64px;
 }
+
+.skill-chip {
+  padding: 0.4rem 0.75rem;
+  background-color: #f3f4f6; /* gray-100 */
+  color: #374151; /* gray-700 */
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+}
+
+.skill-chip:hover {
+  background-color: #10b981; /* emerald-500 */
+  color: white;
+  transform: translateY(-2px);
+}
+
